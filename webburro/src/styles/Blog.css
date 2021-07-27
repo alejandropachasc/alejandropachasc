@@ -1,0 +1,69 @@
+.Blog {
+  position: relative;
+  z-index: 1;
+  margin-top: 4rem;
+}
+
+.Blog__description {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: azure;
+  display: block;
+  font-size: 2rem;
+}
+
+.Blog__container {
+  margin-top: 5rem;
+  margin-left: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 320px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Blog__container--section {
+  border-bottom: 0.5rem solid #e4e4e4;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: azure;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 4rem;
+  text-decoration: none !important;
+  padding: 1.5rem 0;
+}
+
+.Blog__container--section .section__container {
+  width: 50%;
+}
+
+.Blog__container--section .section__container--titulo {
+  font-size: 1.9rem;
+  margin-bottom: 1.3rem;
+}
+
+.Blog__container--section .section__container--texto {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-decoration: none !important;
+}
+
+.Blog__container--section:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+}
+/*# sourceMappingURL=Blog.css.map */

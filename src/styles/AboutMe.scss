@@ -1,0 +1,217 @@
+.Main_AboutMe{
+top: 0;
+position: absolute;
+height: 100vh;
+width: 100vw;
+z-index: 1; 
+
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-image: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(255,255,255,0) 100%),url(../assets/images/alejandro.jpg);
+animation: Appear 1s 1 normal;}
+.AboutMe{
+    z-index: 1;
+    position: relative;
+    align-items: center;
+    flex-direction:column;
+    width:100%;
+    display:flex;
+    &__title{
+        display:flex;
+        justify-content: center;
+        font-size:3rem;
+
+    }
+
+    &__container{
+        font-size:large;
+        width:50%;
+        justify-content:space-evenly;
+        display: flex;
+        flex-direction: column;
+        &--section{
+            display: flex;
+            font-size: 1.3rem;
+            margin: 4rem 0;
+            flex-wrap: wrap;
+            justify-content: center;
+            z-index: 1;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+        &--summary{
+            .summary--paragraph{
+                margin:6rem 0;
+                font-size:clamp(1rem,5vw,1.4rem);
+
+                
+            }
+
+            .summary--icons{
+                width: 100%;
+                flex-wrap: wrap;
+                display:flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                .summary--icon{
+                    width:100px;
+                    height:100px;
+                    display:inline-block;
+                    position:relative;
+                    margin: 1rem;
+                    
+                    &.panamericaSilver{
+                        background-image: url(../assets/icons/panamericanSIlver.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                        width: 80px;
+                        height: 65px;
+
+
+                    }
+                    &.volcan{
+                        background-image: url(../assets/icons/volcan.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        width: 170px;
+                        height: 70px;
+                        background-size: contain;
+
+                    }
+                    &.glencore{
+                        background-image: url(../assets/icons/glencore.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                         width: 250px;
+                         height: 45px;
+
+
+                    }
+                    &.honchshild{
+                        background-image: url(../assets/icons/honchshild.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                        width: 190px;
+                        height: 100px;
+
+                    }
+                }
+            }
+        }
+      
+        &--projects{
+            
+            .projects__list{
+
+                list-style:none;
+                .list--projects{
+                    margin:2rem 0;
+
+                }
+                .list--projects:hover {
+                    background-color: rgba(255, 255, 255, 0.9);
+                    color: black;
+                }
+            }
+        }
+
+        &--tv{
+            position:absolute;
+            flex-wrap: wrap;
+            mask-image:linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 80%);
+            min-width: 100vw;
+            height: 100vh;
+            z-index: 0;
+            left: 0;
+        }
+        &--tv.appear{
+            animation: Appear 1s normal;
+        }
+        &--tv.disappear{
+            animation: Disappear 1s normal;
+
+        }
+        &--title{
+            display:flex;
+            justify-content: center;
+        }
+        &--description{
+            .consultant__list{
+                list-style:none;
+            
+                .list--consultant{
+                    margin:2rem 0;
+                }
+
+                .list--consultant:hover {
+                    background-color: rgba(255, 255, 255, 0.9);
+                    color: black;
+                }
+                
+            }
+
+        }
+
+
+        
+        &--icon{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            z-index: 1;
+        }
+    }
+}
+
+.email{
+    display:flex;
+    align-items: center;
+}
+@keyframes Appear {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+
+@keyframes Disappear {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+} 
+
+@media (max-width: 1022px){
+    .AboutMe__container{
+        font-size:medium;
+        width: 90%;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        
+        }
+        .AboutMe__container--summary .summary--paragraph{
+            font-size: clamp(1rem, 5vw, 1.2rem);
+        }
+
+
+     
+    }
+    @media (max-width: 660px){
+    &.glencore{
+       
+        align-self: flex-end;
+   }
+}
+    

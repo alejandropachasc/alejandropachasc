@@ -1,0 +1,69 @@
+.Main_NavBar_image {
+  top: 0;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(30%, black), to(rgba(255, 255, 255, 0))), url(../assets/images/MineralColored.jpg);
+  background-image: linear-gradient(0deg, black 30%, rgba(255, 255, 255, 0) 100%), url(../assets/images/MineralColored.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.Main_NavBar_image.disappear {
+  -webkit-animation: disappear 1s ease-out;
+          animation: disappear 1s ease-out;
+}
+
+.NavBar {
+  position: relative;
+  z-index: 2;
+}
+
+.NavBar__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 2rem;
+  padding-right: 4rem;
+}
+
+.NavBar__container--text {
+  position: relative;
+  margin-left: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: azure;
+}
+
+.NavBar__container--text:hover {
+  color: #dae9e9;
+}
+
+.NavBar__container--text:active {
+  color: #c4d0d0;
+}
+
+@media (max-width: 760px) {
+  .NavBar__container {
+    padding-right: 0;
+    font-size: 0.7rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .NavBar__container--text {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=NavBar.css.map */

@@ -1,0 +1,40 @@
+.Blog {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 1;
+  height: 80vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Blog__description {
+  text-align: center;
+  color: azure;
+  display: block;
+}
+
+.Blog__description h2 {
+  font-size: clamp(1.5rem, 5vw, 3.2rem);
+}
+
+.Blog .coal {
+  background-image: url(../assets/images/coal.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 250px;
+  width: 250px;
+  position: relative;
+}
+/*# sourceMappingURL=Blog.css.map */

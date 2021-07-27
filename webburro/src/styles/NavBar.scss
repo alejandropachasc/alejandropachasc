@@ -1,0 +1,44 @@
+.Main_NavBar_image{
+    top: 0;
+   
+    background-image:  linear-gradient(0deg, rgba(0,0,0,1) 30%, rgba(255,255,255,0) 100%),url(../assets/images/MineralColored.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+    position:absolute;
+    width: 100vw;
+    height:100vh;
+    z-index:1;
+
+
+}
+.Main_NavBar_image.disappear{
+
+    animation: disappear 1s ease-out;
+
+}
+.NavBar{
+    position: relative;
+    z-index:2;
+
+
+  
+        
+    
+    &__container{
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 2rem;
+        padding-right: 4rem;
+        &--text{
+            position:relative;
+            margin-left: 2rem;
+            font-weight: 700;
+            text-decoration: none;
+            color: azure;
+
+        }
+    }
+}
+

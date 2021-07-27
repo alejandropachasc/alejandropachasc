@@ -1,0 +1,236 @@
+.Main_Projects {
+  top: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-animation: Disappear 1s 1 normal;
+          animation: Disappear 1s 1 normal;
+}
+
+.Main_Projects.Appear {
+  -webkit-animation: Appear 1s 1 normal;
+          animation: Appear 1s 1 normal;
+  display: block;
+}
+
+.Main_Projects.none {
+  display: none;
+}
+
+.Projects {
+  z-index: 1;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Projects__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  height: 100%;
+  position: absolute;
+  justify-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.Projects__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  height: 100%;
+  position: absolute;
+  justify-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.Projects__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3rem;
+}
+
+.Projects__container {
+  font-size: large;
+  width: 50%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2rem;
+}
+
+.Projects__container--section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 4vh 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  line-height: clamp(1.4rem, 2.6vw, 2.7rem);
+}
+
+.Projects__container--projects .projects__list {
+  list-style: none;
+}
+
+.Projects__container--projects .projects__list .list--projects {
+  margin: 2rem 0;
+}
+
+.Projects__container--projects .projects__list .list--projects:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+}
+
+.Projects__container--title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: clamp(1.4rem, 5vw, 3.2rem);
+}
+
+.Projects__container--description .consultant__list {
+  list-style: none;
+}
+
+.Projects__container--description .consultant__list .list--consultant {
+  margin: 2rem 0;
+}
+
+.Projects__container--description .consultant__list .list--consultant:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+}
+
+.Projects__container--icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  z-index: 1;
+}
+
+.email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@-webkit-keyframes Appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes Appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes Disappear {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes Disappear {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1022px) {
+  .Projects__container {
+    font-size: medium;
+    width: 90%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .list--projects {
+    font-size: clamp(1rem, 5vw, 1.2rem);
+  }
+  .list--projects {
+    margin: 1.5rem 0;
+  }
+}
+/*# sourceMappingURL=Projects.css.map */
