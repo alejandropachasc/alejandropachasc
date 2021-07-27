@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b65f3d4.chunk.css",
-    "main.js": "/static/js/main.d404ca53.chunk.js",
-    "main.js.map": "/static/js/main.d404ca53.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ba8e5030.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ba8e5030.js.map",
-    "static/js/2.610c5b3c.chunk.js": "/static/js/2.610c5b3c.chunk.js",
-    "static/js/2.610c5b3c.chunk.js.map": "/static/js/2.610c5b3c.chunk.js.map",
-    "static/js/3.b0ab7262.chunk.js": "/static/js/3.b0ab7262.chunk.js",
-    "static/js/3.b0ab7262.chunk.js.map": "/static/js/3.b0ab7262.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.8b65f3d4.chunk.css.map": "/static/css/main.8b65f3d4.chunk.css.map",
-    "static/js/2.610c5b3c.chunk.js.LICENSE.txt": "/static/js/2.610c5b3c.chunk.js.LICENSE.txt",
-    "static/media/NavBar.css": "/static/media/MineralColored.5f7fc827.jpg",
-    "static/media/AboutMe.css": "/static/media/volcan.5e2760de.png",
-    "static/media/Blog.css": "/static/media/coal.d8c35078.svg",
-    "static/media/morococha.1879ad82.jpg": "/static/media/morococha.1879ad82.jpg",
-    "static/media/truck.aa83c187.jpg": "/static/media/truck.aa83c187.jpg",
-    "static/media/undergrounding.231df128.jpg": "/static/media/undergrounding.231df128.jpg"
+    "main.css": "/alejandropachasc/static/css/main.a8149cf9.chunk.css",
+    "main.js": "/alejandropachasc/static/js/main.851374e3.chunk.js",
+    "main.js.map": "/alejandropachasc/static/js/main.851374e3.chunk.js.map",
+    "runtime-main.js": "/alejandropachasc/static/js/runtime-main.54176947.js",
+    "runtime-main.js.map": "/alejandropachasc/static/js/runtime-main.54176947.js.map",
+    "static/js/2.610c5b3c.chunk.js": "/alejandropachasc/static/js/2.610c5b3c.chunk.js",
+    "static/js/2.610c5b3c.chunk.js.map": "/alejandropachasc/static/js/2.610c5b3c.chunk.js.map",
+    "static/js/3.b0ab7262.chunk.js": "/alejandropachasc/static/js/3.b0ab7262.chunk.js",
+    "static/js/3.b0ab7262.chunk.js.map": "/alejandropachasc/static/js/3.b0ab7262.chunk.js.map",
+    "index.html": "/alejandropachasc/index.html",
+    "static/css/main.a8149cf9.chunk.css.map": "/alejandropachasc/static/css/main.a8149cf9.chunk.css.map",
+    "static/js/2.610c5b3c.chunk.js.LICENSE.txt": "/alejandropachasc/static/js/2.610c5b3c.chunk.js.LICENSE.txt",
+    "static/media/NavBar.css": "/alejandropachasc/static/media/MineralColored.5f7fc827.jpg",
+    "static/media/AboutMe.css": "/alejandropachasc/static/media/volcan.5e2760de.png",
+    "static/media/Blog.css": "/alejandropachasc/static/media/coal.d8c35078.svg",
+    "static/media/morococha.1879ad82.jpg": "/alejandropachasc/static/media/morococha.1879ad82.jpg",
+    "static/media/truck.aa83c187.jpg": "/alejandropachasc/static/media/truck.aa83c187.jpg",
+    "static/media/undergrounding.231df128.jpg": "/alejandropachasc/static/media/undergrounding.231df128.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ba8e5030.js",
+    "static/js/runtime-main.54176947.js",
     "static/js/2.610c5b3c.chunk.js",
-    "static/css/main.8b65f3d4.chunk.css",
-    "static/js/main.d404ca53.chunk.js"
+    "static/css/main.a8149cf9.chunk.css",
+    "static/js/main.851374e3.chunk.js"
   ]
 }
