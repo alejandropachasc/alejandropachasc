@@ -18,9 +18,9 @@ export default function App() {
             <Switch>
             
             <Route exact path="/" component={MainPage}/> 
-            <Route exact path="/aboutme/" component={AboutMe}/> 
-            <Route exact path="/blog/" component={Blog}/> 
-            <Route exact path="/projects/" component={Projects}/>
+            <Route exact path="/me/aboutme/" component={AboutMe}/> 
+            <Route exact path="/me/blog/" component={Blog}/> 
+            <Route exact path="/me/projects/" component={Projects}/>
         
             </Switch>
         </Layout>
