@@ -1,29 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e45ca68.chunk.css",
-    "main.js": "/static/js/main.d3516c3d.chunk.js",
-    "main.js.map": "/static/js/main.d3516c3d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e58caa2b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e58caa2b.js.map",
-    "static/js/2.fbab1458.chunk.js": "/static/js/2.fbab1458.chunk.js",
-    "static/js/2.fbab1458.chunk.js.map": "/static/js/2.fbab1458.chunk.js.map",
-    "static/js/3.fcdf6254.chunk.js": "/static/js/3.fcdf6254.chunk.js",
-    "static/js/3.fcdf6254.chunk.js.map": "/static/js/3.fcdf6254.chunk.js.map",
+    "main.css": "/static/css/main.8b65f3d4.chunk.css",
+    "main.js": "/static/js/main.92fa89be.chunk.js",
+    "main.js.map": "/static/js/main.92fa89be.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ba8e5030.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ba8e5030.js.map",
+    "static/js/2.610c5b3c.chunk.js": "/static/js/2.610c5b3c.chunk.js",
+    "static/js/2.610c5b3c.chunk.js.map": "/static/js/2.610c5b3c.chunk.js.map",
+    "static/js/3.b0ab7262.chunk.js": "/static/js/3.b0ab7262.chunk.js",
+    "static/js/3.b0ab7262.chunk.js.map": "/static/js/3.b0ab7262.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.4e45ca68.chunk.css.map": "/static/css/main.4e45ca68.chunk.css.map",
-    "static/js/2.fbab1458.chunk.js.LICENSE.txt": "/static/js/2.fbab1458.chunk.js.LICENSE.txt",
+    "static/css/main.8b65f3d4.chunk.css.map": "/static/css/main.8b65f3d4.chunk.css.map",
+    "static/js/2.610c5b3c.chunk.js.LICENSE.txt": "/static/js/2.610c5b3c.chunk.js.LICENSE.txt",
     "static/media/NavBar.css": "/static/media/MineralColored.5f7fc827.jpg",
     "static/media/AboutMe.css": "/static/media/volcan.5e2760de.png",
     "static/media/Blog.css": "/static/media/coal.d8c35078.svg",
-    "static/media/Blog1.css": "/static/media/mining-car.128a621a.jpeg",
     "static/media/morococha.1879ad82.jpg": "/static/media/morococha.1879ad82.jpg",
     "static/media/truck.aa83c187.jpg": "/static/media/truck.aa83c187.jpg",
     "static/media/undergrounding.231df128.jpg": "/static/media/undergrounding.231df128.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e58caa2b.js",
-    "static/js/2.fbab1458.chunk.js",
-    "static/css/main.4e45ca68.chunk.css",
-    "static/js/main.d3516c3d.chunk.js"
+    "static/js/runtime-main.ba8e5030.js",
+    "static/js/2.610c5b3c.chunk.js",
+    "static/css/main.8b65f3d4.chunk.css",
+    "static/js/main.92fa89be.chunk.js"
   ]
 }
