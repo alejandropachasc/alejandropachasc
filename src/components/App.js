@@ -5,8 +5,7 @@ import Layout from './Layout'
 import MainPage from '../pages/MainPage.jsx'
 import AboutMe from '../pages/AboutMe.jsx'
 import Blog from '../pages/Blog.jsx'
-import Blog1 from '../pages/Blog1'
-import Blog2 from '../pages/Blog2'
+
 import Projects from '../pages/Projects'
 
 export default function App() {
@@ -18,7 +17,7 @@ export default function App() {
         <Layout>
             <Switch>
             
-            <Route exact path="alejandropachasc.github.io/" component={MainPage}/> 
+            <Route exact path="/" component={MainPage}/> 
             <Route exact path="/aboutme" component={AboutMe}/> 
             <Route exact path="/blog" component={Blog}/> 
             <Route exact path="/projects" component={Projects}/>
