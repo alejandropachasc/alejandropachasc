@@ -17,10 +17,10 @@ export default function App() {
         <Layout>
             <Switch>
             
-            <Route exact path="/alejandropachasc.me/" component={MainPage}/> 
-            <Route exact path="/alejandropachasc.me/aboutme/" component={AboutMe}/> 
-            <Route exact path="/alejandropachasc.me/blog/" component={Blog}/> 
-            <Route exact path="/alejandropachasc.me/projects/" component={Projects}/>
+            <Route exact path="/" component={MainPage}/> 
+            <Route exact path="/aboutme/" component={AboutMe}/> 
+            <Route exact path="/blog/" component={Blog}/> 
+            <Route exact path="/projects/" component={Projects}/>
         
             </Switch>
         </Layout>
