@@ -17,9 +17,9 @@ export default function App() {
         <Layout>
             <Switch>
             
-            <Route exact path="/alejandropachasc.me/home/" component={MainPage}/> 
+            <Route exact path="/alejandropachasc.me/" component={MainPage}/> 
             <Route exact path="/alejandropachasc.me/aboutme/" component={AboutMe}/> 
-            <Route exact path="/alejandropachasc.me//blog/" component={Blog}/> 
+            <Route exact path="/alejandropachasc.me/blog/" component={Blog}/> 
             <Route exact path="/alejandropachasc.me/projects/" component={Projects}/>
         
             </Switch>
