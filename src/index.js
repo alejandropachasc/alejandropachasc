@@ -12,12 +12,7 @@ import reportWebVitals from './reportWebVitals';
 const theDivContainer=document.getElementById('app')
 
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  theDivContainer
-);
+ReactDOM.render(<App />,theDivContainer);
 
 
 
