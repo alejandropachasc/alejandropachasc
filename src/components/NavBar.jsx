@@ -9,10 +9,10 @@ export default function NavBar() {
 
         <div className="NavBar__container">
 
-        <a className="NavBar__container--text" href="/home">Home</a>
-        <a className="NavBar__container--text" href="/aboutme">Acerca de mi</a>
-        <a className="NavBar__container--text" href="/projects">Projectos</a>
-        <a className="NavBar__container--text" href="/blog">Blog</a>
+        <a className="NavBar__container--text" href="/alejandropachasc.me/home">Home</a>
+        <a className="NavBar__container--text" href="/alejandropachasc.me/aboutme">Acerca de mi</a>
+        <a className="NavBar__container--text" href="/alejandropachasc.me/projects">Projectos</a>
+        <a className="NavBar__container--text" href="/alejandropachasc.me/blog">Blog</a>
 
         </div>
 
